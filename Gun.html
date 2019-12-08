@@ -7,19 +7,17 @@ html, body {
     margin: 0;
 }
 body {
-    background: lightgrey;
+    background: linear-gradient(to bottom,white,orange);
     display: flex;
     align-items: center;
-    justify-content: center  ;
+    justify-content: center;
  }
-#game {
-     background: white;                     /*css tag for canvas*/
-    border: 10px solid white ;
-} 
+#game { border: 10px ; 
+border-style: inset;            /*css tag for canvas*/ }
+
 </style>
 </head>
 <body>
-
 <canvas width="565" height="500" id="game"></canvas>
 <script>
 var canvas = document.getElementById('game');
@@ -36,6 +34,7 @@ var playerSpeed = 8;
 var load = 0;
 var gameover=false;
 var flaw=355;
+var go=20;
 const leftPlayer = {
   // Start in the middle of the game on the left side
 x: grid * 2,
@@ -103,7 +102,7 @@ function loop() {                           // game loop
   if (leftPlayer.cooldown > 0) {
     leftPlayer.cooldown--;
   }
-  // right player
+  // right player 
   if (rightPlayer.cooldown > 0) {
     rightPlayer.cooldown--;
   }
@@ -128,7 +127,7 @@ function loop() {                           // game loop
   }
   
   // draw bullets
-  context.fillStyle = 'black';
+  context.fillStyle = 'red';
   bullets.array.forEach(function(bullet, index) {
     context.fillRect(bullet.x, bullet.y, 15, 8);
   
@@ -168,9 +167,9 @@ function loop() {                           // game loop
   });
   
   if(gameover === true){        // after game is over
-      context.font='bold 100px courier';
+      context.font='bold 90px courier';
       context.fillStyle = 'black';
-      context.fillText('GAMEOVER',45,170);     // Display gameover
+      context.fillText('GAMEOVER',20,170);  // Display gameover
       context.font='bold 25px courier';
       context.fillStyle = 'black';
       context.fillText('LOADING GAME '+ Math.floor(load) + ' %',160,260);  // Display fake loading status without decimals places
@@ -183,23 +182,25 @@ function loop() {                           // game loop
 
   }
   if( scoreleft === 3){
-    context.font=' blod 20px courier'
+    context.font=' bold 20px courier'
    context.fillText('Player 1 Won',190,320,); // Display the winner
   }   
 
   if( scoreright === 3){
-    context.font=' blod 20px courier'
+    context.font=' bold 20px courier'
    context.fillText('Player 2 Won',190,320,); 
   }  
-
-  context.fillStyle = 'black';                         // Display gameover
+0
+  //Draw Paddles
+      
+  context.fillStyle = "white";                         
   context.fillRect(leftPlayer.x, leftPlayer.y, leftPlayer.width, leftPlayer.height);
 
   context.fillStyle = 'black';
   context.fillRect(rightPlayer.x, rightPlayer.y, rightPlayer.width, rightPlayer.height);
 
   context.font='bold 15px courier';
-  context.fillStyle = 'black'; 
+  context.fillStyle = 'blue'; 
   context.fillText('Score: '+scoreleft,100,15);
   context.fillText('Score: '+scoreright,400,15);
   context.fillText('Ammo: '+Ammoleft,100,35);
