@@ -130,9 +130,48 @@ function loop() {                           // game loop
   }
   
   // draw bullets
-   roen = context.createLinearGradient(0,0,565,500);
-  roen.addColorStop(0,"white");
-  roen.addColorStop(1,"orange");
+roen = context.createLinearGradient(0,0,565,500);
+  roen.addColorStop(0,"red");
+  roen.addColorStop(0.025,"orange");
+  roen.addColorStop(0.050,"yellow");
+  roen.addColorStop(0.075,"red");
+  roen.addColorStop(0.100,"orange");
+  roen.addColorStop(0.125,"yellow");
+  roen.addColorStop(0.150,"red");
+  roen.addColorStop(0.175,"orange");
+  roen.addColorStop(0.200,"yellow");
+  roen.addColorStop(0.225,"red");
+  roen.addColorStop(0.250,"yellow");
+  roen.addColorStop(0.275,"orange");
+  roen.addColorStop(0.300,"red");
+  roen.addColorStop(0.325,"orange");
+  roen.addColorStop(0.350,"darkred");
+  roen.addColorStop(0.375,"red");
+  roen.addColorStop(0.400,"yellow");
+  roen.addColorStop(0.425,"orange");
+  roen.addColorStop(0.450,"red");
+  roen.addColorStop(0.475,"orange");
+  roen.addColorStop(0.500,"yellow");
+  roen.addColorStop(0.525,"red");
+  roen.addColorStop(0.550,"orange");
+  roen.addColorStop(0.575,"yellow");
+  roen.addColorStop(0.600,"red");
+  roen.addColorStop(0.625,"orange");
+  roen.addColorStop(0.650,"yellow");
+  roen.addColorStop(0.675,"red");
+  roen.addColorStop(0.700,"orange");
+  roen.addColorStop(0.725,"yellow");
+  roen.addColorStop(0.750,"red");
+  roen.addColorStop(0.775,"yellow");
+  roen.addColorStop(0.800,"orange");
+  roen.addColorStop(0.825,"red");
+  roen.addColorStop(0.850,"orange");
+  roen.addColorStop(0.875,"darkred");
+  roen.addColorStop(0.900,"red");
+  roen.addColorStop(0.925,"yellow");
+  roen.addColorStop(0.950,"orange");
+  roen.addColorStop(0.975,"red");
+  roen.addColorStop(1,"yellow");
   context.fillStyle = roen;
   bullets.array.forEach(function(bullet, index) {
     context.fillRect(bullet.x, bullet.y, 15, 8);
@@ -199,20 +238,20 @@ function loop() {                           // game loop
    context.fillText('Player 2 Won',190,320,); 
   }  
 0
-  //Draw Paddles
-      
-  context.fillStyle = roen;                         
+  //Draw Paddles      
+  context.fillStyle = "White";                         
   context.fillRect(leftPlayer.x, leftPlayer.y, leftPlayer.width, leftPlayer.height);
 
-  context.fillStyle = roen;
+  context.fillStyle = "orange";
   context.fillRect(rightPlayer.x, rightPlayer.y, rightPlayer.width, rightPlayer.height);
 
   context.font='bold 15px courier';
-  context.fillStyle = roen; 
+  context.fillStyle = "white"; 
   context.fillText('Score: '+scoreleft,100,15);
-  context.fillText('Score: '+scoreright,400,15);
   context.fillText('Ammo: '+Ammoleft,100,35);
-  context.fillText('Ammo: '+Ammoright,395,35);    
+    context.fillStyle = "orange"; 
+  context.fillText('Ammo: '+Ammoright,395,35); 
+  context.fillText('Score: '+scoreright,400,15);   
 }  
 
 document.addEventListener('keydown', function(e) {   // Taking input from the keyboard
