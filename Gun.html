@@ -13,7 +13,10 @@ body {
     justify-content: center;
  }
 #game { border: 10px ; 
-border-style: inset;            /*css tag for canvas*/ }
+ background: linear-gradient(to bottom,cyan,lightgreen);
+    display: flex;
+    align-items: center;
+    justify-content: center;        /*css tag for canvas*/ }
 
 </style>
 </head>
@@ -127,7 +130,10 @@ function loop() {                           // game loop
   }
   
   // draw bullets
-  context.fillStyle = 'red';
+   roen = context.createLinearGradient(0,0,565,500);
+  roen.addColorStop(0,"white");
+  roen.addColorStop(1,"orange");
+  context.fillStyle = roen;
   bullets.array.forEach(function(bullet, index) {
     context.fillRect(bullet.x, bullet.y, 15, 8);
   
@@ -165,10 +171,12 @@ function loop() {                           // game loop
       bullets.array.splice(index, 1);
     }
   });
-  
+
+ 
+
   if(gameover === true){        // after game is over
       context.font='bold 90px courier';
-      context.fillStyle = 'black';
+      context.fillStyle = "black";
       context.fillText('GAMEOVER',20,170);  // Display gameover
       context.font='bold 25px courier';
       context.fillStyle = 'black';
@@ -193,14 +201,14 @@ function loop() {                           // game loop
 0
   //Draw Paddles
       
-  context.fillStyle = "white";                         
+  context.fillStyle = roen;                         
   context.fillRect(leftPlayer.x, leftPlayer.y, leftPlayer.width, leftPlayer.height);
 
-  context.fillStyle = 'black';
+  context.fillStyle = roen;
   context.fillRect(rightPlayer.x, rightPlayer.y, rightPlayer.width, rightPlayer.height);
 
   context.font='bold 15px courier';
-  context.fillStyle = 'blue'; 
+  context.fillStyle = roen; 
   context.fillText('Score: '+scoreleft,100,15);
   context.fillText('Score: '+scoreright,400,15);
   context.fillText('Ammo: '+Ammoleft,100,35);
