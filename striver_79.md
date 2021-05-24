@@ -11,19 +11,24 @@
 <details>
 <summary>Sort an array of 0’s 1’s 2’s without using extra space or sorting algo</summary>
 
-* [cpp](cpp/012.cpp)
+* [cpp](code/cpp/012.cpp)
 
 </details>
 
 <details>
 <summary>Find Missing And Repeating</summary>
 
-* [cpp](cpp/find_missing_and_repeating.cpp)
+* [cpp](code/cpp/find_missing_and_repeating.cpp)
 </details>
 
 <details>
 <summary>Merge two sorted Arrays without extra space</summary>
 
-* [cpp](cpp/array_merge_without_extra_space.cpp)
+* [cpp](code/cpp/array_merge_without_extra_space.cpp)
 </details>
 
+<details>
+<summary>Largest Sum Contiguous Subarray/Kadane’s Algorithm</summary>
+
+* [cpp](code/cpp/array_merge_without_extra_space.cpp)
+</details>
