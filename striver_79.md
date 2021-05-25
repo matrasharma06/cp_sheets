@@ -32,3 +32,9 @@
 
 * [cpp](code/cpp/array_merge_without_extra_space.cpp)
 </details>
+
+<details>
+<summary>Merge Intervals</summary>
+
+* [cpp](code/cpp/merge_intervals.cpp)
+</details>
