@@ -38,3 +38,25 @@
 
 * [cpp](code/cpp/merge_intervals.cpp)
 </details>
+
+<details>
+<summary>Find the duplicate in an array of N+1 integers.</summary>
+
+* [cpp](code/cpp/merge_intervals.cpp)
+</details>
+
+## Day 2 : Arrays
+
+<details>
+<summary>Set Matrix Zeros</summary>
+
+* [cpp](code/cpp/set_matrix_zeroes.cpp)
+
+</details>
+
+<details>
+<summary>Pascal Triangle</summary>
+
+* [cpp](code/cpp/pascal_triangle.cpp)
+
+</details>
