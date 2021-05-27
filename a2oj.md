@@ -7,8 +7,9 @@
 
 ---
 ## Ladder 11
+
 | ID  | Problem Name | Online Judge | Difficulty |
-|---|---|---|---|
+|---|:---|---|---|
 |1|[Young Physicist]()|Codeforces|1|
 |2|[Beautiful Matrix]()|Codeforces|1|
 |3|[Queue at the School]()|Codeforces|1|

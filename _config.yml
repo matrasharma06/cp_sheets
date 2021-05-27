@@ -1,0 +1,25 @@
+theme: jekyll-theme-architect
+timezone: "India/Kolkata"
+date_format: "%B %-d, %Y"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Blog: "https://ahampriyanshu.pythonanywhere.com"
+  Author's home: "https://ahampriyanshu.github.io"

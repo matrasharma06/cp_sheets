@@ -6,7 +6,6 @@
 # Index
 - [Introductory Problems](#Introductory-Problems)
 
----
 ## Introductory Problems
 1. [Weird Algorithm](code/java/Weird_Algorithm.java)
 1. [Missing Number](code/java/Missing_Number.java)

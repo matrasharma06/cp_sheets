@@ -25,8 +25,6 @@ public:
     }
 };
 
-// { Driver Code Starts.
-
 int main()
 {
     int t, n;
@@ -48,4 +46,3 @@ int main()
     }
     return 0;
 }
-// } Driver Code Ends
