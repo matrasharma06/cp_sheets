@@ -20,3 +20,6 @@
 1. [Merge Intervals](code/cpp/merge_intervals.cpp)
 1. [Find the duplicate in an array of N+1 integers.](code/cpp/array_duplicates.cpp)
 1. [Pascal Triangle](code/cpp/pascal_triangle.cpp)
+1. [Next Permutation](code/cpp/next_permutation.cpp)
+1. [Minimum number of jumps to reach end](min_jumps.cpp)
+1. [Common elements](code/cpp/array_common_ele.cpp)
