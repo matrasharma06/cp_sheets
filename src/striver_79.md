@@ -22,4 +22,8 @@
 
 1. [Set Matrix Zeros](code/cpp/set_matrix_zeroes.cpp)
 1. [Pascal Triangle](code/cpp/pascal_triangle.cpp)
+1. [Next permutation](code/cpp/next_permutation.cpp)
+1. [Inversion of Array]()
+1. [Stock Buy and Sell](code/cpp/buy_sell_stocks.cpp)
+1. [Rotate Matrix]()
 

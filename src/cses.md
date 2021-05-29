@@ -12,3 +12,5 @@
 1. [Weird Algorithm](code/java/Weird_Algorithm.java)
 1. [Missing Number](code/java/Missing_Number.java)
 1. [Repetitions](code/java/Repetitions.java)
+1. [Increasing Array](code/java/Increasing_Array.java)
+1. [Permutations](code/java/Permutations.java)

@@ -1,28 +1,12 @@
 title: SDE Sheet
 author: ahampriyanshu
-email: ahampriyanshu@gmail.com
 description: Solving Striver's and Love Babbar's SDE sheet.
-baseurl: ""
-url: "https://ahampriyanshu.github.io/sde_cheatsheet"
 theme: jekyll-theme-minimal
 markdown: kramdown
 highlighter: rouge
-logo: /src/img/logo.png
-google_analytics:
+google_analytics: G-Q0Y1V0177D
+show_downloads: true
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
-show_downloads: true
-
-social-network-links:
-  email: ahampriyanshu@gmail.com
-  github: ahampriyanshu
-  twitter: ahampriyanshu
-  youtube: c/ahampriyanshu
-  telegram: ahampriyanshu
-  linkedin: ahampriyanshu
-
-share-links-active:
-  twitter: true
-  linkedin: true
