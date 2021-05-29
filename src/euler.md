@@ -1,3 +1,5 @@
+<img src="img/euler.png">
+
 # About
 
 * [Link](https://projecteuler.net/archives)

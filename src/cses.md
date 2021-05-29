@@ -1,3 +1,5 @@
+<img src="img/cses.png">
+
 # About
 
 * The CSES Problem Set contains a collection of competitive programming practice problems.

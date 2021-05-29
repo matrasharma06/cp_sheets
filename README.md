@@ -1,4 +1,4 @@
-# SDE Cheatsheet
+# SDE Sheet
 ## Index
 
 1. [Striver_79 Sheet](src/striver_79.md)
