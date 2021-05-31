@@ -1,4 +1,4 @@
-<img src="img/euler.png">
+<img src="../../img/euler.png">
 
 # About
 

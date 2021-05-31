@@ -1,10 +1,9 @@
-title: SDE Sheet
+title: CP Sheet
 author: ahampriyanshu
-description: Solving Striver's and Love Babbar's SDE sheet.
+description: Solving various CP/SDE sheets.
 theme: jekyll-theme-minimal
 markdown: kramdown
 highlighter: rouge
-google_analytics: G-Q0Y1V0177D
 show_downloads: true
 plugins:
   - jekyll-sitemap

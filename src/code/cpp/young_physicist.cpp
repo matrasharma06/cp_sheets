@@ -7,25 +7,26 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-    int n, i, j;
+    int n, x, y, z, xSum, ySum, zSum;
+    xSum = ySum = zSum = 0;
     cin >> n;
-    int a[n][n];
 
-    for (i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
-        for (j = 0; j < n; j++)
-        {
-            cin >> a[i][j];
-        }
+        cin >> x >> y >> z;
+        xSum += x;
+        ySum += y;
+        zSum += z;
     }
 
-    for (i = 0; i < n; i++)
+    if (xSum == 0 && ySum == 0 && zSum == 0)
     {
-        for (j = 0; j < n; j++)
-        {
-            cin >> a[i][j];
-        }
+        cout << "YES" << endl;
+    }
+    else
+    {
+        cout << "NO" << endl;
     }
 
-    return ans;
+    return 0;
 }

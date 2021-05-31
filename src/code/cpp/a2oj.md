@@ -1,4 +1,4 @@
-<img src="img/a2oj.png">
+<img src="../../img/a2oj.png">
 
 # About
 
