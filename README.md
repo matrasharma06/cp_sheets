@@ -1,19 +1,5 @@
 # CP Sheets
 
-## Repo Structure
-
-```bash
-cp_sheet
-├──src
-|   └─code
-|       ├──cpp
-|       ├──java
-|       ├──python
-|       └──swift
-|
-└──README.md
-```
-
 ## Index
 
 1. Striver_79 Sheet ( [cpp](src/code/cpp/striver.md), [swift](src/code/swift/striver.md) )
@@ -24,3 +10,17 @@ cp_sheet
 1. Project Euler ( [python](src/code/python/euler.md) )
 
 * Click [here](src/) to list programming language.
+
+## Repo Structure
+
+```
+cp_sheet
+├──src
+|   └─code
+|       ├──cpp
+|       ├──java
+|       ├──python
+|       └──swift
+|
+└──README.md
+```
