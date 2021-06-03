@@ -7,7 +7,7 @@
 # Index
 
 - [Arrays 1](#Arrays-1)
-- [Arrays 1](#Arrays-2)
+- [Arrays 2](#Arrays-2)
 
 ## Arrays 1
 
